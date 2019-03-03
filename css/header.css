@@ -1,0 +1,51 @@
+/* header image styling  */
+.hero 
+    {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      url("../Image_assets/hero.jpg");
+    
+        position: relative;
+        background-size: cover;
+        height: 95vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    /* Navigation Class */
+    nav {
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        padding: 10px 1.25rem;
+      }
+  /* Logo class */
+  .logo {
+    height: 120px;
+    width: 120px;
+  }
+/* nav bar center code */
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-item:hover{
+    background-color: blue;
+    
+    
+
+}
