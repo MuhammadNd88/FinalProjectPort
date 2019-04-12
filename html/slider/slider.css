@@ -1,0 +1,23 @@
+.hero_image{
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.7) 0%,
+		rgba(0, 0, 0, 0) 20%,
+		rgba(0, 0, 0, 0) 60%,
+		rgba(0, 0, 0, 0.7) 100%
+	  ),
+	  url("./Rawson\ Lake\ 2\,\ Alberta.jpg");
+	background-size: cover;
+	background-position: 50% 0%;
+	height: 80vh;
+	display: flex;
+
+}
+.hero_content{
+	color: #001224 !important;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 48px;
+	text-align: left !important;
+  	max-width: 900px;
+	padding-bottom: 200px;
+	margin-bottom: 200px;
+}
