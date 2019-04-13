@@ -305,15 +305,18 @@ h3 a:hover {
 .proj-box {
   display: none;
   float: left;
-  float: " ";
-  margin: 5px;
-  padding: 10px 5px 10px 5px;
 
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+  position: relative;
   background-color: orangered;
   width: 300px;
   height: 200px;
 }
 .proj-content-wrapper {
+  padding-left: 50px;
   margin: 0 auto;
   width: 1000px;
+  max-width: 100%;
+  position: relative;
 }
