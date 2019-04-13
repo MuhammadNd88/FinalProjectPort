@@ -261,12 +261,13 @@ h1 {
   background: #444649;
 }
 .main-content-menu {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  display: inline-block;
+  text-align: center;
   padding-top: 20px;
 }
 .menu-row {
+  display: flex;
+  float: left;
   flex-direction: row;
   padding: 50px 0 10px 0;
   margin: 0 40px 0 40px;
@@ -294,8 +295,13 @@ h3 a:hover {
   display: inline-block;
   position: relative;
 }
+
 .proj-box {
-  display: inline-block;
+  display: none;
+  float: left;
+  float: " ";
+  margin: 20px;
+  padding: 20px;
 
   background-color: orangered;
   width: 200px;

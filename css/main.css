@@ -1,0 +1,46 @@
+.filterDiv {
+  float: left;
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+*/
+
+/* Style the buttons */
+ .button {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.button.active {
+  background-color: #666;
+  color: white;
+}
+.button {
+  display: inline-block;
+  float: left;
+  position: relative;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+}
