@@ -306,8 +306,8 @@ h3 a:hover {
   display: none;
   float: left;
   border-radius: 12px;
-  margin: 5px;
-  padding: 10px 20px 10px 20px;
+  /* margin: 5px; */
+  /* padding: 10px 20px 10px 20px; */
   position: relative;
   background-color: orangered;
   width: 300px;
@@ -319,4 +319,20 @@ h3 a:hover {
   width: 1000px;
   max-width: 100%;
   position: relative;
+}
+@media (max-width: 995px) {
+  .proj-box {
+    width: 47% !important;
+  }
+  figure.snip1256 img {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .proj-box {
+    width: 95% !important;
+  }
+  figure.snip1256 img {
+    max-width: 100% !important;
+  }
 }
