@@ -305,7 +305,7 @@ h3 a:hover {
 .proj-box {
   display: none;
   float: left;
-
+  border-radius: 12px;
   margin: 5px;
   padding: 10px 20px 10px 20px;
   position: relative;
