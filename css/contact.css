@@ -1,0 +1,57 @@
+/* contact us page style */
+.wrapper-form {
+  width: relative;
+ max-width: 100%;
+  
+}
+.font-contact{
+
+
+  font-family: "playfair","Georgia",Cambria,Times\ New\ Roman,Times,serif;
+
+}
+.form-control:hover{
+
+  background-color: rgb(228, 224, 224);
+}
+
+.form-contact-image{
+width: 84px;
+height: 84px;
+}
+.image-setting{
+display: flex;
+justify-content: center;
+
+
+}
+.heading-style{
+
+  display: flex;
+  justify-content: center;
+}
+.heading-contact-style{
+  font-family: "playfair","Georgia",Cambria,Times\ New\ Roman,Times,serif;
+ 
+
+}
+.form-image{
+    width: 100px;
+    height: 80px;;
+
+}
+.google-map{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.form-section{
+  background-color: rgb(103, 112, 112);
+}
+.main-form-wrap{
+  width: 100%;
+  padding: 5px 0 5px 0px;
+  margin: 0;
+  position: relative;
+  background-color: darkcyan;
+}

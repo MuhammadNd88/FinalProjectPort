@@ -1,0 +1,78 @@
+footer {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .footer-box {
+    padding-top: 30px;
+    display: block;
+    justify-content: flex-start;
+  }
+  footer a {
+    color: rgb(247, 242, 242);
+  }
+  
+  footer p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 146, 146);
+  }
+  .icon-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #04283a;
+    
+
+  }
+  @media (max-width: 600px) {
+    .footer-container {
+      flex-direction: column; /**can use flex wrap so in that case dont need to worries about this thing**/
+    }
+  }
+  li {
+    line-height: 1.4;
+    font-family: sans-serif;
+  }
+  .footer-box li a {
+    color: white;
+  
+    text-decoration-line: none;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  footer ul {
+    font-size: 16px;
+    color: white;
+  }
+  ul li a:hover {
+
+  }
+  .footer-icon-wrap{
+
+    display: inline-block;
+    float: left;
+
+    padding: 5px;
+    margin: 3px;
+
+  }
+  .footer-copy-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #04283a;
+    
+
+  }
+  .copywrite-info{
+      color: white;
+      
+  }
