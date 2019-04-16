@@ -1,0 +1,16 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "FinalProjectPort",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
