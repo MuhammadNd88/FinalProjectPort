@@ -46,11 +46,12 @@ if (time < 12) {
   show_Greeing = document.querySelector("#greetHeading").innerHTML =
     "Good Morning";
 }
-if (time > 12) {
+if (time >= 12 && time <= 17) {
   show_Greeing = document.querySelector("#greetHeading").innerHTML =
     "Good Afternoon";
 }
-if (time == 12) {
+if (time >= 17 && time <= 24) {
   show_Greeing = document.querySelector("#greetHeading").innerHTML =
     "Good Evening";
 }
+

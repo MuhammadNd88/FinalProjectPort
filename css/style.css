@@ -197,7 +197,7 @@ h1 {
   position: relative;
   text-align: center;
   padding: 0px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 
 .main-brand {
@@ -218,7 +218,7 @@ h1 {
   margin: 20px 10 5px 50px;
   width: 100%;
   text-align: center;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .main-brand-icon-container {
   display: inline-block;
@@ -231,8 +231,8 @@ h1 {
   padding: 12px 0;
   vertical-align: middle;
   border-style: 1px black solid;
-  width: 70px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   padding: 10px;
   margin: 5px;
 
@@ -335,4 +335,45 @@ h3 a:hover {
   figure.snip1256 img {
     max-width: 100% !important;
   }
+}
+
+/* About us section css  */
+/* profile pic settting
+
+height and width and also contain containers
+*/
+.profile-container {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+
+  align-content: right;
+  justify-content: right;
+  position: relative;
+}
+.profile-image {
+  padding: 12px 0;
+  vertical-align: middle;
+  border-style: 1px black solid;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+}
+.profile-name {
+}
+
+.info-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  justify-content: center;
+  align-content: left;
+}
+.paragraph-wrapper {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
