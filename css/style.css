@@ -33,7 +33,7 @@ h4.Head_Name {
   display: inline;
   vertical-align: center;
   color: #fff;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 nav:after {
@@ -154,7 +154,7 @@ img.banner {
 }
 h4 {
   padding-top: 100px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 h1 {
   margin-left: 20px;

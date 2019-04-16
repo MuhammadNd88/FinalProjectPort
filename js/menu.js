@@ -37,3 +37,20 @@ function init() {
 }
 
 init();
+// good morning function in javascript
+var show_Greeing = document.querySelector("#greetHeading");
+var d = new Date();
+var time = d.getHours();
+
+if (time < 12) {
+  show_Greeing = document.querySelector("#greetHeading").innerHTML =
+    "Good Morning";
+}
+if (time > 12) {
+  show_Greeing = document.querySelector("#greetHeading").innerHTML =
+    "Good Afternoon";
+}
+if (time == 12) {
+  show_Greeing = document.querySelector("#greetHeading").innerHTML =
+    "Good Evening";
+}
