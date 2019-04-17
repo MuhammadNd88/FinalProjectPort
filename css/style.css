@@ -29,7 +29,8 @@ nav {
   padding: 5px 0 5px 25px;
   float: left;
 }
-h4.Head_Name {
+
+h5.Head_Name {
   display: inline;
   vertical-align: center;
   color: #fff;
@@ -95,7 +96,8 @@ img.banner {
   .toggle {
     display: block;
     background-color: white;
-    padding: 14px 20px;
+    margin-left: 2px;
+    padding: 7px 10px;
     margin-right: 10px;
     color: #fff;
     font-size: 17px;
