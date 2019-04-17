@@ -302,30 +302,33 @@
                                             </h5>
         
                                         </div>
-                                      <form class="wrapper-form" action="POST">
+                                      <form class="wrapper-form" action="" method="POST">
                                         <div class="form-row">
                                           <div class="form-group col-md-6 font-contact">
-                                            <label for="inputEmail">First Name:</label>
-                                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                                            <label for="FirstName">First Name:</label>
+                                            <input type="text" class="form-control" id="FirstName" placeholder="First Name" value="" name="fName" required>
                                           </div>
                                           <div class="form-group col-md-6 font-contact">
                                             <label for="inputPassword">Last Name:</label>
-                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name" required>
+                                            <input type="text" class="form-control" id="inputPassword" placeholder="Last Name" name="lName"value="" required>
                                           </div>
                                         </div>
                                         <div class="form-row">
                                           <div class="form-group col-md-12 font-contact">
-                                            <label for="inputEmail">Email</label>
-                                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                                            <label for="inputEmail">Email:</label>
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email"  name="email" 
+                                            name="email"
+                                            value=""
+                                            requiredvalue="" required>
                                           </div>
                                         </div>
                               
                                         <div class="form-group">
-                                          <label for="Enter Your Text Here">Message</label>
-                                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                          <label for="exampleFormControlTextarea1">Message:</label>
+                                          <textarea class="form-control" id="exampleFormControlTextarea1" name="message1" placeholder="Enter your text here" rows="6" value=""></textarea>
                                         </div>
                                         <div class="form-group center-block text-center">
-                                        <button type="button" class="btn btn-dark  btn-lg" >Submit</button>   
+                                        <input type="submit" class="btn btn-dark  btn-lg" value="Submit">   
                                       </div>     
                                       </form>
                                     </div>
