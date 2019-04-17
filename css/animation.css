@@ -28,11 +28,11 @@ figure.snip1256 * {
 figure.snip1256 img {
   opacity: 1;
   width: 100% !important;
-  height: auto !important;
+  /* height: 300px !important; */
   border-radius: 12px;
   max-width: 100% !important;
-  max-height: 100% !important;
- 
+  max-height: 200px !important;
+
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;

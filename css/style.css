@@ -312,7 +312,7 @@ h3 a:hover {
   position: relative;
   background-color: orangered;
   width: 300px;
-  height: 200px;
+  height: 300px;
 }
 .proj-content-wrapper {
   padding-left: 50px;
@@ -343,46 +343,36 @@ h3 a:hover {
 
 height and width and also contain containers
 */
-.profile-container {
-  width: 100%;
-  padding: 5px;
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
+
+
 .profile-image {
-  width: 69%;
-  vertical-align: middle;
-  height: auto;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 50%;
-}
-.profile-name{
-  
-}
-.info-section {
-  width: 26%;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
   padding: 10px;
   margin: 5px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.paragraph-wrapper {
-  max-width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.picture-section {
-  padding: 10px;
-  margin: 5px;
+.profile-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  /* align-items: center; */
 }
-.picture-contianer {
-  object-fit: cover;
-  position: relative;
+
+.wrapper-profile {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .profile-container {
+    flex-direction: column; /**can use flex wrap so in that case dont need to worries about this thing**/
+  }
 }
