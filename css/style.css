@@ -358,9 +358,13 @@ height and width and also contain containers
   margin: 5px;
   border-radius: 50%;
 }
-
+.profile-name{
+  
+}
 .info-section {
   width: 26%;
+  padding: 10px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -371,6 +375,8 @@ height and width and also contain containers
   margin-left: auto;
 }
 .picture-section {
+  padding: 10px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
