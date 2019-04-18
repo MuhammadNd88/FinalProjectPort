@@ -33,7 +33,7 @@ function init() {
   document.getElementById("next").addEventListener("click", chooseNextIntro);
   document.getElementById("prev").addEventListener("click", choosePrevIntro);
   showIntro();
-  var quoteTimer = setInterval(chooseNextIntro, 3000);
+  var quoteTimer = setInterval(chooseNextIntro, 10000);
 }
 
 init();
