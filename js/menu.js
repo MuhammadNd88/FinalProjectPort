@@ -3,7 +3,7 @@ function init() {
     { heading: "I am Muhammad Nadeem." },
     { heading: "I am a Web Developer." },
     { heading: "I do HTML, CSS and JavaScript." },
-    { heading: "I also have graphic design experience." }
+    { heading: "I also have graphic design skills." }
   ];
 
   var counter = 0;
@@ -54,4 +54,3 @@ if (time >= 17 && time <= 24) {
   show_Greeing = document.querySelector("#greetHeading").innerHTML =
     "Good Evening";
 }
-
