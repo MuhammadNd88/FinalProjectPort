@@ -20,14 +20,14 @@ footer {
   .footer-container {
     display: flex;
     justify-content: center;
-    background-color: rgb(5, 146, 146);
+    background-color:#011F4B;
   }
   .icon-container {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
-    background-color: #04283a;
+    background-color: #011F4B;
     
 
   }
@@ -68,7 +68,7 @@ footer {
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
-    background-color: #04283a;
+    background-color: #011F4B;
     
 
   }

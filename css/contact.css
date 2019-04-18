@@ -46,12 +46,13 @@ justify-content: center;
   position: relative;
 }
 .form-section{
-  background-color: rgb(103, 112, 112);
+  background-color:#011F4B;
+  color: white;
 }
 .main-form-wrap{
   width: 100%;
   padding: 5px 0 5px 0px;
   margin: 0;
   position: relative;
-  background-color: darkcyan;
+  background: #071c3a;
 }
