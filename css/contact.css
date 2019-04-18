@@ -20,6 +20,7 @@ width: 84px;
 height: 84px;
 }
 .image-setting{
+  padding: 10px;
 display: flex;
 justify-content: center;
 
