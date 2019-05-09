@@ -116,8 +116,25 @@ img.banner {
     color: black;
     background-color: white;
   }
+
+  /* 
+  
+  new animation
+
+  */
+
+
+
+
+
+
+
+
+
+/* ========================= */
   [id^="drop"]:checked + ul {
     display: block;
+
   }
   nav ul li {
     display: block;
