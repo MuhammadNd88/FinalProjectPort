@@ -26,6 +26,13 @@ justify-content: center;
 
 
 }
+.image-setting-map{
+  padding: 10px;
+display: flex;
+justify-content: center;
+
+
+}
 .heading-style{
 
   display: flex;
